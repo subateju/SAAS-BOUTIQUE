@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Brand Ad</title>
+    <style>
+        body {
+            font-family: Times new Roman, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color:#FFFFFF;
+        }
+        .ad-container {
+            background-color: #000000;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .ad-container h1 {
+            color: #FFFFFF;
+        }
+        .ad-container h2 {
+            color: #FFFFFF;
+        }
+        .ad-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .ad-container p {
+            color: #FFFFFF;
+            font-size: 1.2em;
+        }
+        .ad-container a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .Shop Now-button {
+            background-color: #007bff;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="ad-container">
+        <h1>Discover the Latest Fashion Trends!</h1>
+        <h2>SAAS BOUTIQUE</h2>
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/52b338113851481.602fdc6276ca7.png">
+        <p>Upgrade your wardrobe with our new collection. Explore the latest styles and enjoy exclusive offers.</p>
+        <a href="#" class="category-button Shop Now-button" onclick="redirectToCategory('Shop Now')">Shop Now</a>
+
+        
+            </div>
+<script>
+        function redirectToCategory(category) {
+            let url;
+            if (category === 'Shop Now') {
+                url = "file:///C:/Users/subas/OneDrive/Desktop/a.HTML"; // Replace with your men's section URL
+            }             
+            window.location.href = url;
+        }
+    </script>
+
+</body>
+</html>
+
+
+
